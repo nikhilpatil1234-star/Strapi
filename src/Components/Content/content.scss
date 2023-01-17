@@ -1,0 +1,170 @@
+
+.mainbodycontainer{
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+ justify-items: center;
+ align-items: center;
+ margin: 40px;
+}
+.mainbodyptag p{
+    // border:1px solid #8c4bff;
+font-size: 13px;
+color: #c0c0cf;
+margin-top: 20px;
+}
+.hmainbodyheading h1{
+    // border:1px solid #8c4bff;
+font-size: 53px;
+color: white;
+font-weight: 700;
+
+}
+.mainbodyptag1{
+    // border:1px solid #8c4bff;
+font-size: 17px;
+color:#c0c0cf; 
+margin-top: 25px;  
+margin-bottom: 50px;
+}
+
+.copyinputboxbelowbuttons {
+margin-bottom: 30px;
+}
+
+.displayingingimageininputcontainer{
+    display: flex;
+     
+}
+//for image or icon setting in input field
+// .addclipboard{
+//     background-image: url(../../assests/clipboard.jpeg);
+//     background-repeat: no-repeat;
+//     background-position-x: 330px;
+//     background-position-y: 10px;
+// }
+.copyinputboxbelowbuttons input{
+    padding: 10px 16px;
+    background-color: #040a44;
+  border: #040a44;
+  color: #ffffff;
+  width: 360px;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+   font-size: 13px;
+    border-radius: 6px 0px 0px 6px;
+    padding-left: 40px;
+    
+}
+.copyinputboxbelowbuttons input:focus-visible{
+    outline: none
+}
+
+.imageclipbord img {
+    height: -webkit-fill-available;
+    border:1px solid #040a44;
+    border-radius: 0px 6px 6px 0px;
+}
+.buttoninclipboard.btn{
+    background-color: #040a44;
+    border:1px solid #040a44;
+    border-radius: 0px 6px 6px 0px;
+}
+.buttoninclipboard.btn:hover{
+    background-color: #040a44;
+    border:1px solid #040a44;
+    border-radius: 0px 6px 6px 0px;
+}
+
+
+input[type= "text"]::-webkit-input-placeholder{
+    color: #ffffff;
+ padding-left: 30px;
+}
+
+.getstartedbutton{
+    margin: 22px;
+}
+.getstartedbutton.btn.btn-primary.btn-lg{
+    background-color: #8c4bff;
+    border: #8c4bff;
+    width: 160.91px;
+    height: 51px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+.trythelivedemobutton.btn.btn-primary.btn-lg{
+    background-color: white;
+    border: white;
+    width: 216px;
+    height: 51px;
+    color: #171693;
+    font-size: 15px;
+}
+.getstartedbutton.btn.btn-primary.btn-lg:hover{
+
+
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.trythelivedemobutton.btn.btn-primary.btn-lg:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+
+// media quiers for mobiledevices
+@media screen and (max-width:550px) {
+
+    .mainbodycontainer{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+     justify-items: center;
+     align-items: center;
+    }
+    .mainbodyptag {
+        margin-left: -130px;
+    }
+    .hmainbodyheadingmedia h1{
+        margin-left: -212px;
+        margin-top: -20px;
+    }
+
+    .mainbodyptag p{
+    font-size: 13px;
+    color: #c0c0cf;
+
+    }
+    .hmainbodyheading h1{
+        // border:1px solid #8c4bff;
+        display: flex;
+    font-size: 53px;
+    color: white;
+    font-weight: 700;
+    text-align: start;
+    padding: 5px;
+    
+    }
+    .mainbodyptag1{
+    font-size: 16px;
+    color:#c0c0cf;   
+    text-align: inherit!important;
+    }
+    .copyinputboxbelowbuttons input {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.getstartedbutton.btn.btn-primary.btn-lg {
+    width:442.91px;
+    margin-left: 16px;
+
+}
+.trythelivedemobutton.btn.btn-primary.btn-lg {
+    width: 442.91px;
+    margin-left: 16px;
+  
+}
+
+}

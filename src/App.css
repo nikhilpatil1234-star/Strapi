@@ -1,0 +1,11 @@
+
+.App{
+    background-image: 
+    url(
+  "./assests/background1.png");
+    background-size: "cover";
+    height: 100vh;
+    width: 100vw;
+    background-repeat: repeat-x;
+    background-color: #0e127e;
+}
